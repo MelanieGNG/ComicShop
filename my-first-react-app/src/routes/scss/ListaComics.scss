@@ -1,0 +1,18 @@
+.lista-comics {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+
+    .cabecera {
+        margin-bottom: 35px;
+
+        .titulo {
+            align-self: flex-start;
+        }
+    
+        .boton-registro {
+            align-self: flex-end;
+        }
+    }
+}
